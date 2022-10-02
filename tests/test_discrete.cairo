@@ -47,7 +47,7 @@ func setup_correctness() {
         given(
             amount = strategy.integers(1, 10),
             elapsed = strategy.integers(1, 10),
-            quantity = strategy.intergers(1, 10),
+            quantity = strategy.integers(1, 10),
         )
     %}
     return ();
